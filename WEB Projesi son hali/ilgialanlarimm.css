@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');*{
+    margin:0;
+    padding:0;
+    font-family: Poppins,sans-serif;
+}
+
+body{
+    background-image: url(images/arkaplan.jpeg);
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Roboto',sans-serif;
+    
+}
+body div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a_class
+{
+    background-color: rgba(255, 99, 71, 0.367);
+    margin: 0;
+    padding: 32px 0;
+    width: 100%;
+}
+#a_class.row a{
+    width: 50%;
+    margin: 1% auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+#ustBolum {
+    width: 60%;
+    margin: 1% 5%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+}
+.row div a {
+    color: white;
+    font-size: 15px;
+    font-family: Poppins,sans-serif;
+    text-decoration: none;
+    padding: 10px;
+
+    
+    
+}
+.row div a.active,
+.row div a:hover {
+    background:rgba(230, 112, 91, 0.942);
+    transition: .5s;
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    font-family: Roboto;
+    user-select: none; 
+    background: rgba(255, 255, 255, 0.588);
+    padding:35px;
+    color: rgb(35, 24, 24);
+    text-decoration :none;
+    font-size: 18px;
+}
+.ilgialanlarim {
+    /* top:100%;
+    left:50%; 
+    transform: translate(-50%,-50%); */
+    width: 90%;
+    height: 48%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto;
+    background: rgba(255, 255, 255, 0.664);
+    color: rgb(35, 24, 24);
+    text-decoration :none;
+    font-size: 18px;
+    left: 7%;
+    right: 7%;
+    top:25%;
+    padding: 10px;
+    
+}
+.baslik0{
+    background:  rgba(220, 97, 75, 0.942);
+    width: 98,5%;
+    color: white;
+    font-family: Poppins,sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 28px;
+}
+.row2{
+    width: 70%;
+    padding: 20%;
+}

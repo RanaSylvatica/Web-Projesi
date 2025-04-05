@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımda</title>
+    <link rel="stylesheet" href="Hakkimda.css" >
+   
+    <!--Bu �nemli, bunu di�er projelere koymay� unutma-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <!--
+        col-lg : Bilgisayarlardaki normal g�r�n�m
+        col    : En k���k ekranlardaki g�r�n�m (Telefon vs.)
+
+        Responsive i�lemi div koyularak yap�l�yor. Div koymadan yap�l�r m� bilmiyorum, hi� denemedim.
+        Her bir alan ayr� de�erlendirilir. Mesela en �st alan�n div'i farkl�.
+        En ba�a class="container" olan bir div koyuyoruz.
+        Sonra class="row" olan bir div
+        En sonunda da ay�rmak istedi�imiz alanlara ayr� ayr� divler yerle�tiriyoruz.
+        Sonra onlar� adeta par�alara b�l�yoruz.
+        col en d���k g�r�n�m, col-lg en y�ksek g�r�n�m
+
+        col-lg-2, 2 gridlik bir alan b�rak�r kendine.
+        col-lg-12, 12 gridlik bir alan b�rak�r.
+        Bu �ekilde i�te deneye deneye d�zg�n bir g�r�n�m elde edene kadar devam et.
+
+        Altta zaten �rnekler var, bakars�n.
+
+        Bu arada ya�l� boya yapmay� da b�rakma, devam et :)
+    -->
+    <div id="a_class" class="container-fluid my-2 p-3">
+        <div id="ustBolum" class="row">
+            <div class="col-12 col-lg-1"><a href="Hakkımda.html">HAKKIMDA</a></div>
+            <div class="col-12 col-lg-1"><a href="ozGecmiss.html">ÖZ GEÇMİŞ</a></div>
+            <div class="col-12 col-lg-1"><a href="ilgialanlarimm.html" >İLGİ ALANLARIM</a></div>
+            <div class="col-12 col-lg-1"><a href="sehrimm.html">ŞEHRİM</a></div>
+            <div class="col-12 col-lg-1"><a href="mirasimiz.html"  class="active" >MİRASIMIZ</a></div>
+            <div class="col-12 col-lg-1"><a href="GirisYap.html"  >GİRİŞ YAP</a></div>
+            <div class="col-12 col-lg-1"><a href="YeniHesap.html" >KAYIT OL</a></div>
+        </div>
+    </div>
+    
+    
+    <section class="hakkimda">
+        <h1 class="baslik0"> MİRASIMIZ</h1>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-24"> 
+                    <img class="image" src="images/cobanmustafa3.jpg" alt="Ben">
+                </div>
+                <div class="col-lg-6 col-md-12 col-24">
+
+                    <!--Buras� ayr� bir container-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                <h3>Mirasımız: Çoban Mustafa Paşa Camii ve Külliyesi</h3>
+                            </div>
+                            <div class="col-lg-15 col-12">
+                                <p>
+                                    Çoban Mustafa Paşa Camii ve Külliyesi</h3>
+                            Çoban Mustafa Paşa Külliyesi, 16. yüzyılda Kocaeli'nin Gebze ilçe merkezinde, 
+                            Bağdat Caddesi, Şeftali Sokak'ta yer alan, kesin olmamakla birlikte Mimar Sinan tarafından 
+                            inşa edilmiş bir Osmanlı külliyesidir.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+        
+        <!--Buran�n divi farkl� mesela-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5"> 
+                    <img src="images/cobanmustafa2.jpg" class="image" alt="Orgum">
+                </div>
+                <div class="col-lg-6">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                <h3>Tarihi</h3>
+                            </div>
+                            <div class="col-lg-15 col-12">
+                                <p>
+                                    Külliye, Yavuz Sultan Selim’in kızı ve I. Süleyman'ın kardeşi Hafsa Sultan'la evli olan
+                                    Çoban Mustafa Paşa tarafından yaptırılmıştır. Cami, türbe, medrese, tekke, kütüphane, imaret, 
+                                    dârüşşifâ, paşa odaları, kervansaray ile çarşı içerisindeki hamamdan oluşan külliye; Anadolu’dan geçen kervanlar, 
+                                    hacı adayları ve doğuya yapılan seferlerde ordunun buradan geçmesi nedeniyle büyük bir alana kuruldu.
+                                    2012 yılında başlayan restorasyonun tamamlanmasıyla cami, 02.01.2015 tarihinde yeniden ibadete açıldı.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5"> 
+                    <img src="images/cobanmustafa4.jpg" class="image" alt="Bilim Kurgu">
+                </div>
+                <div class="col-lg-6">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                <h3>Osman Hamdi Bey'in Gebze’de Çoban Mustafa Paşa Külliyesi tablosu</h3>
+                            </div>
+                            <div class="col-lg-15 col-12">
+                                <p>
+                                    Gebze’de Çoban Mustafa Paşa Külliyesi, Osman Hamdi Bey'in Çoban Mustafa Paşa Külliyesini 
+                            çizdiği tablodur. Eserin yapım tarihi tam olarak bilinmemekle birlikte 1880'li yıllarda yaptığı 
+                            sanılmaktadır. Külliyede yer alan cami kubbe ve minareleri görülmektedir. Külliye, bir camiyle birlikte bir 
+                            imarethane ve medrese de içerir.Osman Hamdi Bey'in Gebze'ye olan ilgisi Eskihisar'da bulunan babasının konağına dayandığı ifade edilmektedir.
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            
+            </div>
+
+        </div>
+    </section>
+
+
+
+    
+    <script src="YeniHesap.js"></script>
+
+    <!-- Buras� da �nemli -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
